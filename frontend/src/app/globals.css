@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+	.text-balance {
+		text-wrap: balance;
+	}
+
+	.fundo-gradiente {
+		@apply bg-gradient-to-r from-rose-600 to-rose-700;
+	}
+
+	.fundo-gradiente-verde {
+		@apply bg-gradient-to-r from-green-700 to-green-900;
+	}
+
+	.fundo-gradiente-vermelho {
+		@apply bg-gradient-to-r from-red-700 to-red-900;
+	}
+
+	.fundo-gradiente-amarelo {
+		@apply bg-gradient-to-r from-yellow-700 to-yellow-900;
+	}
+}
